@@ -40,3 +40,8 @@ main{
     display: block;
     padding: 10px;
 }
+#formu>h1{
+    text-align: center;
+    color: rgb(66, 167, 235);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.57);
+}
