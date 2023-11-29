@@ -4,19 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
-    <title>loguin</title>
+    <link rel="stylesheet" href="estilos/media-query.css">
+    <title>login</title>
 </head>
 <body>
     <main>
-        <section>
-            <div id="imagen">
-             <img src="imagens/fundo002.png">
-            </div>
+        <section id="log">
+            <div id="imagen"></div>
             <div id="formu">
-             <h1>Loguin</h1>
+             <h1>Login</h1>
              <p>Seja bem-vindo(a).Faça loguin para acessar sua conta.</p>
             </div>
-            <form action="log.php" method="post">loguin</form>
+            <form action="log.php" method="post">
+             <p>
+                <label for="text" id="ilog">login</label>
+                <input  type="text">
+             </p>
+             <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+            </form>
+
         </section>
     </main>
     
