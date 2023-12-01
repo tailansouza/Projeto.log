@@ -99,9 +99,5 @@ label{
     border-radius: 20px;
 }
 .botaoesqueci:hover{
-background-color: rgb(128, 204, 254);
-}
-#carta{
-    font-size:1em;
-    
+background-color: rgb(128, 204, 200);
 }

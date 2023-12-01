@@ -18,10 +18,28 @@ body{
     width: 70%;
 }
 .campo1{
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.342);
     margin-top: 80px;
+    margin-left: 220px;
+    margin-right: 20px;
+    
 }
+
+
+#pessoa{
+    margin-left: 80px;
+    font-size:1.5em;
+    
 }
+.campo{
+    background-color: rgba(0, 0, 255, 0.342);
+
+    margin-left: 220px;
+    margin-right: 20px;
+}
+
+}
+
 @media screen and (min-width:992px){
     body{
         background-image: linear-gradient( to top,rgb(0, 234, 255), rgba(3, 71, 71, 0.901));
