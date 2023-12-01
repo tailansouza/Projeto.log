@@ -17,24 +17,28 @@
              <p>Seja bem-vindo(a).Faça loguin para acessar sua conta.</p>
             </div>
             <form action="log.php" method="post">
-             <div class="campo">
+
+             <div class="campo1">
               
-                <span class="material-symbols-outlined">
-                    mail
-                    </span>
+                <span class="material-symbols-outlined"> person</span>
                 
-                <input type="email" nome="loguin" id="ilogin" placeholder="seu email" minlength="6">
+                <input type="email" nome="loguin" id="ilogin" placeholder="seu email" minlength="6" required>
                 <label for="ilogin">Loguin</label>
 
              </div>
-             <span        class="material-symbols-outlined">
-                key
-             </span>
-             <input type="password" nome="senha" id="isenha" placeholder="digite a senha" minlength="6">
-             <label for="isenha">Senha</label>
+             
+             <div class="campo">
+                
+                <span class="material-symbols-outlined"> key</span>
+                 
+                      <input type="password" nome="senha" id="isenha" placeholder="digite a senha" minlength="6"required>
+                 <label for="isenha">Senha</label>
+             </div>
+             
              <div>
-                <input type="submit">
-
+                 <input class="entrar" type="submit" value="Entrar">
+                 
+                  <a href="esqueci.html" class="botaoesqueci">esqueci a senha <span class="material-symbols-outlined" id="carta">email</span></a>
              </div>
             </form>
 

@@ -17,6 +17,10 @@ body{
     float: right;
     width: 70%;
 }
+.campo1{
+    background-color: blue;
+    margin-top: 80px;
+}
 }
 @media screen and (min-width:992px){
     body{
@@ -35,8 +39,12 @@ body{
         float: left;
         width: 50%;
     }
+    .campo1{
+        background-color: blue;
+        margin-top: 80px;
     
 
 } 
 
     
+}

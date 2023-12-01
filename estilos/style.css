@@ -21,12 +21,12 @@ main{
     left: 50%;
     transform: translate(-50% ,-50%);
     background-color: white;
-    width: 360px;
-    height: 400px;
+    width: 300px;
+    height: 500px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.508);
-    transition:width 0.1s;
+    
 }
 #imagen{
     background: aqua url(../imagens/fundo002.png);
@@ -44,4 +44,64 @@ main{
     text-align: center;
     color: rgb(66, 167, 235);
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.57);
+}
+.campo{
+    background-color: rgb(82, 112, 245);
+    display: block;
+    margin: 5px;
+    padding: 3px;
+    border-radius: 10px;
+}
+.campo1{
+   
+        background-color: blue;
+       
+       margin: 5px;
+       padding: 3px;
+       border-radius: 10px;
+}
+
+
+label{
+    display: none;
+}
+.entrar{
+    margin: auto;
+    display: block;
+    font-size: 1em;
+    width: 45%;
+    height: 35px;
+    background-color: rgb(89, 193, 248);
+    border: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-shadow: 1px 0px 1px rgba(0, 0, 0, 0.319) ;
+
+}
+.entrar:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.botaoesqueci{
+
+    display: block;
+    font-size: 1em;
+   
+  
+    background-color:white;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    padding-bottom: 5px;
+    border: 1px solid rgb(39, 95, 160);
+    border-radius: 20px;
+}
+.botaoesqueci:hover{
+background-color: rgb(128, 204, 254);
+}
+#carta{
+    font-size:1em;
+    
 }
