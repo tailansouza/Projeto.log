@@ -15,10 +15,10 @@ body{
 }
 #formu{
     float: right;
-    width: 70%;
+   
 }
 .campo1{
-    background-color: rgba(0, 0, 255, 0.342);
+    background-color: rgba(0, 183, 245);
     margin-top: 80px;
     margin-left: 220px;
     margin-right: 20px;
@@ -32,12 +32,23 @@ body{
     
 }
 .campo{
-    background-color: rgba(0, 0, 255, 0.342);
+    background-color: rgba(0, 183, 245);
 
     margin-left: 220px;
     margin-right: 20px;
 }
-
+#chav{
+    margin-left: 80px;
+    font-size:1.5em;
+    
+}
+#esque{
+    margin-left: 280px;
+    width: 45%;
+}
+.entrar{
+    margin-left: 280px;
+}
 }
 
 @media screen and (min-width:992px){
@@ -58,11 +69,32 @@ body{
         width: 50%;
     }
     .campo1{
-        background-color: blue;
+        background-color: rgba(0, 183, 245);
+        width: 45%;
         margin-top: 80px;
+        margin-right: 220px;
+        margin-left: 20px;
+        
+    }
+      .campo{
+        background-color: rgba(0, 183, 245);
+        width: 45%;
+        margin-right: 220px;
+        margin-left: 20px;
+    }
+   
+        
+    
+    #esque{
+        margin: 10px 40px;
+        width: 40%;
+    }
+    .entrar{
+        margin: 10px 40px;
+        width: 40%;
+    }
     
 
 } 
 
     
-}
